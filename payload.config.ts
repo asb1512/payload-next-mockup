@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import Page from './collections/Page';
 import Media from './collections/Media';
 import FormSubmission from './collections/FormSubmissions';
+import JobListing from './collections/JobListing';
 
 dotenv.config();
 
@@ -12,5 +13,6 @@ export default buildConfig({
     Page,
     Media,
     FormSubmission,
+    JobListing,
   ],
 });
