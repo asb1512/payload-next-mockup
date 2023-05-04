@@ -7,6 +7,7 @@ const FormSubmission: CollectionConfig = {
       type: 'text',
       name: 'name',
       label: 'Name',
+      required: true,
       admin: {
         readOnly: true,
       },
@@ -15,6 +16,7 @@ const FormSubmission: CollectionConfig = {
       type: 'email',
       name: 'email',
       label: 'Email',
+      required: true,
       admin: {
         readOnly: true,
       },
@@ -31,6 +33,7 @@ const FormSubmission: CollectionConfig = {
       type: 'textarea',
       name: 'message',
       label: 'Message',
+      required: true,
       admin: {
         readOnly: true,
       },
