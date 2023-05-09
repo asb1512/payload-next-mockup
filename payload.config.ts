@@ -4,6 +4,7 @@ import Page from './collections/Page';
 import Media from './collections/Media';
 import FormSubmission from './collections/FormSubmissions';
 import JobListing from './collections/JobListing';
+import Highlight from './collections/Highlight';
 
 dotenv.config();
 
@@ -14,5 +15,6 @@ export default buildConfig({
     Media,
     FormSubmission,
     JobListing,
+    Highlight,
   ],
 });
